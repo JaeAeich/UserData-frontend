@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -8,6 +8,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class UserComponent implements OnInit {
   users: any = [];
+  isEditting = false;
+
+  @ViewChild('modalTriggerButton') modalTriggerButton!: ElementRef; // Added
 
   constructor(private http: HttpClient) {}
 
@@ -22,8 +25,9 @@ export class UserComponent implements OnInit {
   }
 
   editUser(id: string) {
-    // TODO: Implement edit user logic
+    this.isEditting = true;
     console.log(`Editing user with ID: ${id}`);
+    this.modalTriggerButton.nativeElement.click(); // Added
   }
 
   deleteUser(id: string) {
