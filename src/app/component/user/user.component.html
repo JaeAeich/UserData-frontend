@@ -1,0 +1,26 @@
+<div>
+  <h2>Users</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Mobile</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.age }}</td>
+        <td>{{ user.gender }}</td>
+        <td>{{ user.mobile }}</td>
+        <td>
+          <button (click)="editUser(user._id)">Edit</button>
+          <button (click)="deleteUser(user._id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
