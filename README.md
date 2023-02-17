@@ -1,27 +1,47 @@
-# Frontend
+# 📊 UserData Web App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+FYI : DEMO VID AND SS AVAILABLE
 
-## Development server
+Welcome to the UserData web app, a MEAN stack application that allows you to store, edit, and delete personal information in a secure and organized manner. The Angular frontend fetches data from a MongoDB server and displays it on the web app, where you can easily manage your user data.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Getting Started
 
-## Code scaffolding
+To get started with the app, you will need to have Node.js and MongoDB installed on your local machine. Then, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository to your local machine.
+2. Open the terminal and navigate to the project directory.
+3. Run `npm install` to install the dependencies.
+4. Run `ng serve` to start the app.
+5. Open your browser and navigate to `http://localhost:4200/`.
 
-## Build
+You should now be able to see the web app running on your local machine.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 Usage
 
-## Running unit tests
+Once you're on the app, you can view your existing user data by navigating to the "Users" page. Here, you'll see a list of all the users currently in the database.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To edit or delete a user, simply click on their name to open their profile. From there, you can make any necessary changes and hit "Save" to update the user's information. Alternatively, you can click "Delete" to remove the user from the database.
 
-## Running end-to-end tests
+## 🔒 Security
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+The app is designed with security in mind. All user data is stored on a secure MongoDB server and encrypted to ensure that no unauthorized access occurs. Authentication mechanisms are in place to protect user information and prevent unauthorized editing or deletion.
 
-## Further help
+## 🤝 Contributing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contributions to the UserData web app are always welcome! Feel free to submit a pull request or open an issue if you run into any problems or have suggestions for improvement.
+
+##  📸 Screenshots
+
+![Alt text](/screenshots/s1.png)
+![Alt text](/screenshots/s2.png)
+![Alt text](/screenshots/s3.png)
+
+## 📺[Demo Video](https://youtu.be/7n0G_BaAF4Q)
+
+## 💻 [Backend Code](https://github.com/JaeAeich/UserData-backend.git)
+
+## 🙏 Acknowledgements
+
+This project was made possible thanks to the MEAN stack and the countless resources and tutorials available online. Special thanks to the open-source community for their contributions to web development.
+
+Happy coding! 😄
