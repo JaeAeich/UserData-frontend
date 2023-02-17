@@ -1,0 +1,14 @@
+*{
+    background-color: #f5f5f5;
+}
+.navbar{
+    border-bottom: 1px solid black;
+    border-radius: 2rem;
+}
+.user-container {
+    height: 100vh;
+    border-radius: 2rem;
+    margin-top: 20px;
+    border: 1px solid #0b0b0b;
+    padding: 10px;
+}
