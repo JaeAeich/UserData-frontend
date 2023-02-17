@@ -32,9 +32,9 @@ Contributions to the UserData web app are always welcome! Feel free to submit a 
 
 ##  📸 Screenshots
 
-![Alt text](/screenshots/s1.png)
-![Alt text](/screenshots/s2.png)
-![Alt text](/screenshots/s3.png)
+![Alt text](./screenshots/s1.png)
+![Alt text](./screenshots/s2.png)
+![Alt text](./screenshots/s3.png)
 
 ## 📺[Demo Video](https://youtu.be/7n0G_BaAF4Q)
 
